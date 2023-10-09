@@ -16,7 +16,7 @@ const ServicesFeature = () => {
   return (
     <div>
       <div className="text-center">
-        <h2 className="text-5xl p-14 mb-5">Services: {Services.length}</h2>
+        <h2 className="text-5xl p-14 mb-5">Services: </h2>
       </div>
       <div className="grid grid-cols-2 gap-6">
         {Services.slice(0, dataLength).map((Service) => (

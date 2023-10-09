@@ -14,7 +14,7 @@ const Header = () => {
             <NavLink to="/Events">Events</NavLink>
           </li>
           <li>
-            <NavLink to="/Speaker">Speaker</NavLink>
+            <NavLink to="/Speakers">Speakers</NavLink>
           </li>
           
         </>
@@ -54,11 +54,6 @@ const Header = () => {
               {links}</ul>
           </div>
           <div className="navbar-end">
-                <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-                    <div className="w-10 rounded-full">
-                        <img src="" alt=""  />
-                    </div>
-                </label>
                 <Link to="/Login">
                     <button className="btn">Login</button>
                 </Link>

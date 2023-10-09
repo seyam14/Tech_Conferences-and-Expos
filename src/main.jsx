@@ -11,12 +11,13 @@ import Root from './layout/Root/Root';
 
 import Login from './Component/Login/Login';
 import Register from './Component/Register/Register';
-import Events from './Component/Events/Events';
-import Speaker from './Component/Speaker/Speaker';
 import Errorpage from './Component/Errorpage/Errorpage';
 import ServicesFeature from './Component/Services/ServicesFeature';
 import Serivcedetails from './Pages/Servicedetalis/Serivcedetails';
-
+import EventsFeature from './Component/Events/EventsFeature';
+import SpeakersFeature from './Component/Speakers/SpeakersFeature';
+import AuthProvider from './Firebase/AuthProvider';
+import PrivateRoute from './Component/PrivateRoute';
 
 
 const router = createBrowserRouter([
@@ -39,7 +40,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/Service/:id",
-        element:<Serivcedetails></Serivcedetails>,
+        element:<PrivateRoute><Serivcedetails></Serivcedetails></PrivateRoute>,
         loader:()=>fetch('../Services.Json')
       },
       {
@@ -48,11 +49,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/Events",
-        element:<Events></Events>
+        element:<PrivateRoute><EventsFeature></EventsFeature></PrivateRoute>
       },
       {
-        path: "/Speaker",
-        element:<Speaker></Speaker>
+        path: "/Speakers",
+        element:<PrivateRoute><SpeakersFeature></SpeakersFeature></PrivateRoute>
       },
     ],
   },
@@ -60,6 +61,9 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <RouterProvider router={router} />
+    <AuthProvider>
+    <RouterProvider router={router} />
+    </AuthProvider>
+   
   </React.StrictMode>,
 )
