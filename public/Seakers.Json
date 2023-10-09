@@ -1,0 +1,30 @@
+ [
+    {
+      "id": 1,
+      "name": "Dr. Kate Crawford",
+      "picture": "https://i.ibb.co/Cv0VDRy/Dr-Kate-Crawford.jpg",
+      "time": "10:00 AM - 11:00 AM",
+      "topic_name": "Artificial Intelligence and Ethics"
+    },
+    {
+      "id": 2,
+      "name": "Chris Larsen",
+      "picture": "https://i.ibb.co/vsZKHsj/Chris-Larsen.png",
+      "time": "11:30 AM - 12:30 PM",
+      "topic_name": "Blockchain Technology in Finance"
+    },
+    {
+      "id": 3,
+      "name": "Bruce Schneier",
+      "picture": "https://i.ibb.co/v3PnR09/Bruce-Schneier.webp",
+      "time": "2:00 PM - 3:00 PM",
+      "topic_name": "Cybersecurity Best Practices"
+    },
+    {
+      "id": 4,
+      "name": "Seyam",
+      "picture": "https://i.ibb.co/GJr7nRF/seyam.jpg",
+      "time": "3:30 PM - 4:30 PM",
+      "topic_name": "The Future of IoT"
+    }
+  ]

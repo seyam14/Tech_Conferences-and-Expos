@@ -1,0 +1,44 @@
+ [
+    {
+      "id": 1,
+      "name": "Tech Workshop",
+      "picture": "https://i.ibb.co/4PY9wX9/Tech-Workshop.jpg",
+      "description": "Hands-on workshops on the latest tech trends and tools.",
+      "article": "Tech workshops have become essential hubs for learning, collaboration, and innovation in today's fast-paced technological landscape. These interactive events bring together individuals with diverse backgrounds and skill sets to delve into emerging technologies, share knowledge, and tackle real-world challenges."
+    },
+    {
+      "id": 2,
+      "name": "Networking Lounge",
+      "picture": "https://i.ibb.co/sgvy54V/Networking-Lounge.jpg",
+      "description": "Relax and connect with fellow tech enthusiasts.",
+      "article":""
+    },
+    {
+      "id": 3,
+      "name": "Exhibition Booths",
+      "picture": "https://i.ibb.co/b6pjy1t/Exhibition-Booths.jpg",
+      "description": "Explore cutting-edge tech products and services.",
+      "article":""
+    },
+    {
+      "id": 4,
+      "name": "Panel Discussions",
+      "picture": "https://i.ibb.co/TBjjy14/Panel-Discussions.jpg",
+      "description": "Engage in insightful discussions with industry experts.",
+      "article":""
+    },
+    {
+      "id": 5,
+      "name": "Hackathon",
+      "picture": "https://i.ibb.co/bKYVkTN/Hackathon.png",
+      "description": "Compete in a coding competition and win prizes.",
+      "article":""
+    },
+    {
+      "id": 6,
+      "name": "Startup Pitch",
+      "picture": "https://i.ibb.co/vLSSt8h/Startup-Pitch.png",
+      "description": "Discover innovative startups and their ideas.",
+      "article":""
+    }
+  ]

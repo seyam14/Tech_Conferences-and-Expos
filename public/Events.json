@@ -1,73 +1,4 @@
-{
-   "services": [
-      {
-        "id": 1,
-        "name": "Tech Workshop",
-        "picture": "https://i.ibb.co/4PY9wX9/Tech-Workshop.jpg",
-        "description": "Hands-on workshops on the latest tech trends and tools."
-      },
-      {
-        "id": 2,
-        "name": "Networking Lounge",
-        "picture": "https://i.ibb.co/sgvy54V/Networking-Lounge.jpg",
-        "description": "Relax and connect with fellow tech enthusiasts."
-      },
-      {
-        "id": 3,
-        "name": "Exhibition Booths",
-        "picture": "https://i.ibb.co/b6pjy1t/Exhibition-Booths.jpg",
-        "description": "Explore cutting-edge tech products and services."
-      },
-      {
-        "id": 4,
-        "name": "Panel Discussions",
-        "picture": "https://i.ibb.co/TBjjy14/Panel-Discussions.jpg",
-        "description": "Engage in insightful discussions with industry experts."
-      },
-      {
-        "id": 5,
-        "name": "Hackathon",
-        "picture": "https://i.ibb.co/bKYVkTN/Hackathon.png",
-        "description": "Compete in a coding competition and win prizes."
-      },
-      {
-        "id": 6,
-        "name": "Startup Pitch",
-        "picture": "https://i.ibb.co/vLSSt8h/Startup-Pitch.png",
-        "description": "Discover innovative startups and their ideas."
-      }
-    ],
-    "speakers": [
-      {
-        "id": 1,
-        "name": "Dr. Kate Crawford",
-        "picture": "https://i.ibb.co/Cv0VDRy/Dr-Kate-Crawford.jpg",
-        "time": "10:00 AM - 11:00 AM",
-        "topic_name": "Artificial Intelligence and Ethics"
-      },
-      {
-        "id": 2,
-        "name": "Chris Larsen",
-        "picture": "https://i.ibb.co/vsZKHsj/Chris-Larsen.png",
-        "time": "11:30 AM - 12:30 PM",
-        "topic_name": "Blockchain Technology in Finance"
-      },
-      {
-        "id": 3,
-        "name": "Bruce Schneier",
-        "picture": "https://i.ibb.co/v3PnR09/Bruce-Schneier.webp",
-        "time": "2:00 PM - 3:00 PM",
-        "topic_name": "Cybersecurity Best Practices"
-      },
-      {
-        "id": 4,
-        "name": "Seyam",
-        "picture": "https://i.ibb.co/GJr7nRF/seyam.jpg",
-        "time": "3:30 PM - 4:30 PM",
-        "topic_name": "The Future of IoT"
-      }
-    ],
-    "events": [
+ [
       {
         "id": 1,
         "name": "TechCon 2023",
@@ -87,5 +18,3 @@
         "description": "A festival for coders and tech enthusiasts."
       }
     ]
-  }
-  
