@@ -15,7 +15,7 @@ const SpeakersFeature = () => {
   return (
     <div>
       <div className="text-center">
-        <h2 className="text-5xl p-14 mb-5">Speakers</h2>
+        <h2 className="text-5xl p-14 mb-5 font-bold">Speakers</h2>
       </div>
       <div className="grid grid-cols-2 gap-6">
         {Speakers.map((Speaker) => (

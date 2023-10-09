@@ -14,7 +14,7 @@ const EventsFeature = () => {
     return (
       <div>
         <div className="text-center">
-          <h2 className="text-5xl p-14 mb-5">Up coming Events......</h2>
+          <h2 className="text-5xl p-14 mb-5 font-bold text-bule-200">Up coming Events......</h2>
         </div>
         <div className="grid grid-cols-2 gap-6">
           {Events.map((Event) => (
