@@ -1,7 +1,14 @@
+import { useContext } from "react";
 import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../Firebase/AuthProvider";
 
 
 const Header = () => {
+  const { user, logout } = useContext(AuthContext);
+  console.log(user);
+  const handleLogout = () => {
+    logout().then((result) => console.log(result));
+  };
     const links = (
         <>
           <li>
@@ -54,6 +61,19 @@ const Header = () => {
               {links}</ul>
           </div>
           <div className="navbar-end">
+          {user && (
+          <button className="btn btn-primary" onClick={handleLogout}>
+            logout
+          </button>
+  
+             )}
+             <div className="gap-1 m-2">
+             <p>{user?.displayName}</p>
+             </div>
+             <div className="gap-1 m-2">
+             <img className="w-10 rounded-full" src={user?.photoURL} alt="" />
+             </div>
+              
                 <Link to="/Login">
                     <button className="btn">Login</button>
                 </Link>

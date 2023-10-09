@@ -61,7 +61,7 @@ const Login = () => {
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Login</button>
                         </div>
-                        <div className="btn btn-Secondary">
+                        <div className="btn btn-active btn-accent mt-3 ">
                         <button onClick={handleGoogleLogin} className="google-btn ">
                         Google Login
                         </button>
