@@ -14,7 +14,7 @@ The "Tech Conferences and Expos" project aims to create a comprehensive platform
 Firebase documentation for detailed instructions on setting up and configuring Firebase services for  specific project requirements.
 
 ## speakers time and topic 
-## and
+
 ## login and registration etc 
 
 
