@@ -18,3 +18,7 @@ Firebase documentation for detailed instructions on setting up and configuring F
 ## login and registration etc 
 
 
+ ## Technology:
+   - **Front-end:** React
+   - **Frameworks:** Tailwind, DaisyUI
+   - **Tools:** Firebase 
